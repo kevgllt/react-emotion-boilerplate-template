@@ -1,24 +1,54 @@
 # Boilerplate Pessoal Vite + React + Emotion
 
-Template de projeto inicial para aplicações React, configurado com Vite e Emotion. Otimizado para GitHub Codespaces.
+Um template de projeto inicial para aplicações React, configurado com Vite para alta performance e Emotion para estilização CSS-in-JS.
 
-## Recursos
+O ambiente é otimizado para uma inicialização rápida com GitHub Codespaces, incluindo configurações de qualidade de vida e automações para um fluxo de desenvolvimento eficiente.
 
-* **Vite + React:** Setup de alta performance.
-* **Emotion:** CSS-in-JS pré-instalado.
-* **Padrão 1rem = 10px:** Configuração global de `font-size: 62.5%` aplicada via Emotion Global Styles.
-* **Codespaces Ready:** Configuração `.devcontainer` para inicialização rápida na nuvem, instalação automática de extensões e dependências.
+## Recursos Principais
 
-## Como Utilizar (Local ou Codespaces)
+* **Vite + React:** Setup de alta performance para um desenvolvimento ágil.
+* **Emotion:** Biblioteca CSS-in-JS pré-instalada para estilização moderna e encapsulada.
+* **Padrão `1rem = 10px`:** Configuração global de `font-size: 62.5%` aplicada via Emotion, facilitando o design responsivo.
+* **Codespaces Ready:** Ambiente totalmente automatizado com o ficheiro `.devcontainer` para uma inicialização rápida na nuvem, incluindo:
+    * Instalação da versão LTS do Node.js.
+    * Instalação de extensões essenciais do VS Code.
+    * Instalação automática de dependências.
+    * Verificação de atualizações de pacotes na inicialização.
 
-1.  Clone o repositório ou use-o como template.
-2.  Rode `npm install` (se estiver localmente; no Codespaces é automático).
-3.  Rode `npm run dev` para iniciar o servidor de desenvolvimento.
+## Como Utilizar este Template
 
-## Entendendo o Ambiente Codespaces
+Siga estes passos para iniciar um novo projeto baseado neste template.
 
-Ao iniciar este projeto no GitHub Codespaces, o arquivo `.devcontainer.json` automatiza:
-* **Node.js LTS:** Garante o uso da versão Long Term Support do Node.js.
-* **Instalação de Extensões:** Instala automaticamente ESlint, Prettier e GitLens.
-* **Instalação de Dependências:** Executa `npm install` na criação do ambiente.
-* **Mensagem de Boas-Vindas:** Exibe informações úteis no terminal ao iniciar.
+### 1. Crie o seu Novo Repositório
+
+Clique no botão verde **"Use this template"** > **"Create a new repository"** no topo desta página do GitHub. Isto irá criar um novo repositório na sua conta com uma cópia exata deste código.
+
+### 2. Inicie o Ambiente de Desenvolvimento
+
+Tem duas opções para começar a codificar:
+
+#### Opção A: GitHub Codespaces (Recomendado)
+
+Esta é a forma mais rápida de começar, pois todo o ambiente é configurado automaticamente na nuvem.
+
+1.  No seu novo repositório, clique no botão verde **"< > Code"**.
+2.  Vá para o separador **"Codespaces"**.
+3.  Clique em **"Create codespace on main"**.
+4.  Aguarde enquanto o Codespaces constrói o ambiente. O processo de instalação de dependências (`npm install`) e a verificação de atualizações serão executados automaticamente.
+
+#### Opção B: Desenvolvimento Local
+
+1.  Clone o repositório que acabou de criar para a sua máquina local:
+    ```bash
+    git clone [https://github.com/SEU-UTILIZADOR/NOME-DO-SEU-NOVO-REPOSITORIO.git]
+    ```
+2.  Navegue até à pasta do projeto e instale as dependências:
+    ```bash
+    cd NOME-DO-SEU-NOVO-REPOSITORIO
+    npm install
+    ```
+
+### 3. Execute a Aplicação
+
+```bash
+npm run dev
