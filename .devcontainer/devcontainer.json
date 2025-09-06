@@ -1,0 +1,21 @@
+{
+  "name": "Vite React Boilerplate",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "forwardPorts": [5173],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install",
+  "postStartCommand": ".devcontainer/welcome.sh"
+}
