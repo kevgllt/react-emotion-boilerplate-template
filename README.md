@@ -4,6 +4,10 @@ Um template de projeto inicial para aplicações React, configurado com Vite par
 
 O ambiente é otimizado para uma inicialização rápida com GitHub Codespaces, incluindo configurações de qualidade de vida e automações para um fluxo de desenvolvimento eficiente.
 
+<p align="center">
+  <img src="https://i.imgur.com/c9nHLMv.png" alt="Mapa Mental do projeto" width="600">
+</p>
+
 ## Recursos Principais
 
 * **Vite + React:** Setup de alta performance para um desenvolvimento ágil.
